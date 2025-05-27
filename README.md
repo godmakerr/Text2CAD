@@ -10,5 +10,6 @@
 `cd data_construction`，查看`readme.md`并运行数据构建脚本。
 ## 2. 模型训练
 我们使用开源[LLaMA-Factory](https://llamafactory.readthedocs.io/zh-cn/latest/index.html)进行模型训练，请先进入链接下载所需的依赖。
+请使用[modelscope](https://modelscope.cn/models/Qwen/Qwen3-4B)下载Qwen3-4B模型，并将`LLaMA-Factory/examples/train_full/train_qwen3_4b.yaml`中的模型路径换成你的。
 
 `cd LLaMA-Factory`，运行`llamafactory-cli train examples/train_full/train_qwen3_4b.yaml`开始训练。
