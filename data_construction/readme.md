@@ -1,0 +1,1 @@
+run `bash data_construct.sh` and you will get data (`train.json` and `test.json`) in directory `final_data`
