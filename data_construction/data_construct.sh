@@ -1,0 +1,9 @@
+mkdir ../freecad_samples
+mkdir ../final_data
+python category1_basic_geometry.py
+python category2_boolean_operations.py
+python category3_sketch_drawing.py
+python category4_sketch_constraints.py
+python category5_feature_modeling.py
+python merge_samples.py
+python train_test_split.py
